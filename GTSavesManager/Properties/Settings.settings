@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GTSavesManager.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="savesFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="launcherPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="lastGlobalSaveName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="dateTimeFilePattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">yyyyMMddHHmmss</Value>
+    </Setting>
+    <Setting Name="dateTimeDisplayPattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">yyyy-MM-dd HH:mm:ss</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
