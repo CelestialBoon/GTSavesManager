@@ -13,8 +13,8 @@
         <Button x:Name="newGlobalSaveButton" Content="New" HorizontalAlignment="Left" Margin="128,38,0,0" VerticalAlignment="Top" Width="31" ToolTip="Create a new global save file." Height="22"/>
         <ListBox x:Name="saveListBox" HorizontalAlignment="Left" Height="195" Margin="172,10,0,0" VerticalAlignment="Top" Width="306"/>
         <Button x:Name="newSaveButton" Content="New Save Backup..." HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top" Width="149" ToolTip="Creates a new story point backup." IsEnabled="False"/>
-        <Button x:Name="overwriteSaveButton" Content="Overwrite Save Backup..." HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="149" ToolTip="Replaces an old story point backup with another of the same name." IsEnabled="False"/>
-        <Button x:Name="restoreSaveButton" Content="Load Save Backup..." HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="149" ToolTip="Restore a story point from backup." IsEnabled="False"/>
+        <Button x:Name="restoreSaveButton" Content="Load Save Backup..." HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="149" ToolTip="Restore a story point from backup." IsEnabled="False"/>
+        <Button x:Name="overwriteSaveButton" Content="Overwrite Save Backup..." HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="149" ToolTip="Replaces an old story point backup with another of the same name." IsEnabled="False"/>
         <Button x:Name="importSavePointButton" Content="Import External Backup(s)..." HorizontalAlignment="Left" Margin="10,157,0,0" VerticalAlignment="Top" Width="149" ToolTip="Imports existing save point backups into the manager."/>
         <Button x:Name="settingsButton" Content="Settings..." HorizontalAlignment="Left" Margin="10,184,0,0" VerticalAlignment="Top" Width="149" ToolTip="Change the location of the save directory and game launcher."/>
 

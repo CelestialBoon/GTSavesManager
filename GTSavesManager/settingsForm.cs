@@ -20,7 +20,7 @@ namespace GTSavesManager
         {
             InitializeComponent();
 
-            var saveFolder = Utils.EmptyToNull(Settings.Default.savesFolder) ?? Path.Combine($"{Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)}Low", @"Dreaming Door Studios\Golden Treasure - The Great Green\Saves");
+            var saveFolder = Utils.EmptyToNull(Settings.Default.savesFolder) ?? Path.Combine($"{Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)}Low", @"Dreaming Door Studios\Golden Treasure - The Great Green\Profile\Default");
             var launcherPath = Utils.EmptyToNull(Settings.Default.launcherPath) ?? @"C:\Program Files (x86)\Steam\steamapps\common\Golden Treasure The Great Green\Golden Treasure - The Great Green.exe";
 
             if (! Directory.Exists(saveFolder)) saveFolder = null;
